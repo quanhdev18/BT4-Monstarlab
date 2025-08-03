@@ -1,0 +1,19 @@
+# .editorconfig
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a trailing newline at the end of files
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# 2-space indentation for all supported files
+[*.{js,jsx,ts,tsx,json,css,scss,md,yml,yaml}]
+indent_style = space
+indent_size = 2
+charset = utf-8
+trim_trailing_whitespace = true
+
+# Override for Markdown files
+[*.md]
+trim_trailing_whitespace = false
